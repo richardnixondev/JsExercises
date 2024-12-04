@@ -136,3 +136,19 @@ const i = 10 + (5 * 2 ** 3) / 4 - 6;
 // MDN Operator Precedence - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 // MDN Numbers - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number#Number_instances
 // Expressions vs Statements - http://www.2ality.com/2012/09/expressions-vs-statements.html
+
+
+const expressionOne = ((2 * 2) + 5) * 6;
+console.log(expressionOne);
+//54
+
+const expressionTwo = ((2* 2) + (5 * 3)) - 5;
+console.log(expressionTwo);
+//14
+const expressionThree = (5 * 5) / (5 * 5);
+console.log(expressionThree);
+//1
+
+const expressionFour = 5 * 5 - 5 * 4;
+console.log(expressionFour);
+//5
