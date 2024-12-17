@@ -99,3 +99,10 @@ seriesWatching.splice(0,5);
 console.log(seriesPending.length);
 console.log(seriesWatching.length);
 
+
+
+function filterPizzas(pizzas) {
+    return pizzas.filter(pizza => pizza.type !== "pineapple");
+    
+    let newArray = filterPizzas(pizzas);
+  }
