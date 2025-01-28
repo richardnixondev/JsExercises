@@ -1,0 +1,17 @@
+Great job tackling this challenge, Richard! Let's go through your solution step by step and see where you can improve it. Remember, every coding challenge you work through is a step towards becoming more skilled in web development.
+
+Starting with line 1, you've correctly named the function as sortProducts as specified by the task, which is great. However, there are some areas of improvement in syntax and logic that can help streamline your solution.
+
+In line 2, you start iterating over the matrix's length. This is a good start, but remember that matrix is an array of arrays, so you'll need to loop through each nested array as well.
+
+Lines 3 to 9: Here, you're trying to classify products based on their category, which is the right approach. However, you mistakenly create new properties tech and food on newObject. Instead, you should aim to add the entire product object to the appropriate category array within a result object.
+
+Moving to lines 11 to 15, the approach of reassigning matrix[i] with a new object isn't achieving the desired goal of sorting products into separate arrays. Instead, you'd want to add products to either a tech or food array in a structured object that you build as you iterate.
+
+A couple of points:
+
+You're not currently returning anything from the function. The task requires the function to return an object with sorted products, so remember to include a return statement.
+The properties category, product, and price referenced in lines 11 to 14 need to match how you're trying to structure your output. Right now, they don't align well with the task requirements.
+Lastly, you're not handling each individual product on a per-item basis across the nested arrays. Consider iterating over each element in the nested arrays to ensure you process each product independently.
+
+Keep in mind, Richard, that coding challenges like these are all about learning through repetitive practice. Each iteration you make on your solution adds to your understanding of JavaScript structures and logic. Keep refactoring, and I'm confident you'll nail this challenge soon! Your determination and effort will definitely pay off. 😊

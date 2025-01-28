@@ -242,3 +242,7 @@ my_function :x: */
 // return in JavaScript - https://my.ironhack.com/cohorts/6682a7aaa4ba1f002b638cf4/lms/courses/course-v1:IRONHACK+WDPREWORK60+MASTER/modules/ironhack-course-chapter_2/units/ironhack-course-chapter_2-sequential_3-vertical#:~:text=MDN%20Functions%20Reference,return%20in%20JavaScript
 
 
+function wontWork(){
+  return 0;
+  return 1;
+}

@@ -315,11 +315,11 @@ console.log(sentence);
 
 
 
-Task Instructions
+/*Task Instructions
 Create a function named sumArray that receives an array of numbers as an argument.
 The function should return the sum of all the numbers in the array.
 
-Additionaly, the function should return 0, when an empty array [] is passed as the argument.
+Additionaly, the function should return 0, when an empty array [] is passed as the argument.*/
 
 
 function sumArray(numbers) {
